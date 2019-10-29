@@ -226,6 +226,7 @@ MainWindow::MainWindow(QWidget *parent, Qt::WindowFlags flags)
     ActionManager::registerAction(mUi->actionAddExternalTileset, "AddExternalTileset");
     ActionManager::registerAction(mUi->actionAutoMap, "AutoMap");
     ActionManager::registerAction(mUi->actionAutoMapWhileDrawing, "AutoMapWhileDrawing");
+    ActionManager::registerAction(mUi->actionAutoMapRules, "AutoMapRules");
     ActionManager::registerAction(mUi->actionDonate, "Donate");
     ActionManager::registerAction(mUi->actionClearRecentFiles, "ClearRecentFiles");
     ActionManager::registerAction(mUi->actionClearView, "ClearView");
